@@ -239,6 +239,7 @@
 				$(data.fake_input).val($(data.fake_input).attr('data-default'));
 				$(data.fake_input).css('color',settings.placeholderColor);
 		        $(data.fake_input).resetAutosize(settings);
+				$(data.fake_input).doAutosize(settings);
 		
 				$(data.holder).bind('click',data,function(event) {
 					$(event.data.fake_input).focus();
